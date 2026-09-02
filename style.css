@@ -1,0 +1,104 @@
+.loginbody
+{
+background-color:white;
+
+}
+
+#loginform{
+margin-top:17%;
+margin-left:35%;
+background-color:teal;
+height:7cm;
+width:13cm;
+padding:20px;
+border-radius:5px;
+}
+
+#loginform table{
+
+font-size:20px;
+margin-left:2cm;
+}
+
+
+#loginform h3{
+
+text-align:center;
+font-size:30px;
+}
+
+
+#loginform  input{
+
+background-color:transparent;
+border:none;
+border-bottom:solid;
+color:white;
+margin-left:8px;
+
+}
+
+#loginform button{
+
+background-color:black;
+color:white;
+border:none;
+height:0.7cm;
+width:2cm;
+margin-left:45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+background-color:white;
+color:black;
+}
+
+#nav{
+background-color:teal;
+color:white;
+height:6%;
+width:100%;
+padding:20px;
+margin-left:-10px;
+margin-top:-10px;
+}
+
+
+#nav b{
+font-style:sans serif;
+font-size:30px;
+margin-right:27cm;
+}
+
+
+#nav a{
+margin-right:5px;
+margin-left:20px;
+text-decoration:none;
+color:white;
+}
+
+#image {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#image img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
