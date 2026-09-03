@@ -4,9 +4,9 @@ background-color:white;
 
 }
 
-#loginform{
-margin-top:17%;
-margin-left:35%;
+#loginform ,#signupform{
+margin-top:11%;
+margin-left:30%;
 background-color:teal;
 height:7cm;
 width:13cm;
@@ -14,21 +14,22 @@ padding:20px;
 border-radius:5px;
 }
 
-#loginform table{
+#loginform table, #signupform table{
 
 font-size:20px;
 margin-left:2cm;
 }
 
 
-#loginform h3{
+#loginform h3, #signupform h3{
 
 text-align:center;
 font-size:30px;
+color:white;
 }
 
 
-#loginform  input{
+#loginform  input, #signupform input{
 
 background-color:transparent;
 border:none;
@@ -38,7 +39,7 @@ margin-left:8px;
 
 }
 
-#loginform button{
+#loginform button, #signupform button{
 
 background-color:black;
 color:white;
@@ -46,6 +47,8 @@ border:none;
 height:0.7cm;
 width:2cm;
 margin-left:45px;
+margin-top:10px;
+
 }
 
 
@@ -79,9 +82,20 @@ margin-top:-10px;
 #nav b{
 font-style:sans serif;
 font-size:30px;
-margin-right:27cm;
+margin-right:2cm;
 }
 
+
+#nav input{
+
+border-radius:3px;
+margin-right:13cm;
+margin-left:2cm;
+height:30px;
+width:10cm;
+border:none;
+
+}
 
 #nav a{
 margin-right:5px;
@@ -94,11 +108,13 @@ color:white;
     margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
+    
 }
 
 #image img {
     width: 200px;
     height: 250px;
     object-fit: cover;
+    text-align:center;
 }
