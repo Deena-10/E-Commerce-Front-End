@@ -3,52 +3,48 @@
 .loginbody
 {
 background-color:white;
-
 }
 
-#nav #l{
-
+#nav #l
+{
 margin-left:25cm;
 }
 
-
-#loginform ,#signupform{
+#signupform
+{
 margin-top:11%;
 margin-left:30%;
 background-color:teal;
-height:7cm;
+height:9cm;
 width:13cm;
 padding:20px;
 border-radius:5px;
 }
 
-#loginform table, #signupform table{
-
+#signupform table
+{
 font-size:20px;
 margin-left:2cm;
 }
 
-
-#loginform h3, #signupform h3{
-
+#signupform h3
+{
 text-align:center;
 font-size:30px;
 color:white;
 }
 
-
-#loginform  input, #signupform input{
-
+#signupform input
+{
 background-color:transparent;
 border:none;
 border-bottom:solid;
 color:white;
 margin-left:8px;
-
 }
 
-#loginform #b1, #signupform #b1{
-
+#formbutton,#formbutton2
+{
 background-color:black;
 color:white;
 border:none;
@@ -56,36 +52,42 @@ height:0.7cm;
 width:2cm;
 margin-left:45px;
 margin-top:10px;
-
+cursor:pointer;
 }
 
-
-
-#b2{
-
+#formmessage,#formmessage2
+{
 font-size:15px;
-position:absolute;
- left: 16cm;
-    top: 13cm;
-    color:white
+text-align:center;
+color:white;
+margin-top:25px;
 }
 
-#loginbutton{
-
+#LoginButton,#SignupButton
+{
 background:transparent;
-color:navy;
+color:white;
 border:none;
+cursor:pointer;
+font-size:15px;
+}
 
+#logincontent
+{
+display:none;
 }
 
 
-/*---------------Index.html--------------------------------*/
-body{
+/*--Index.html--------------------------------*/
+
+body
+{
 background-color:white;
 color:black;
 }
 
-#nav{
+#nav
+{
 background-color:teal;
 color:white;
 height:6%;
@@ -95,41 +97,42 @@ margin-left:-10px;
 margin-top:-10px;
 }
 
-
-#nav b{
-font-style:sans serif;
+#nav b
+{
+font-style:sans-serif;
 font-size:30px;
 margin-right:2cm;
 }
 
-
-#nav input{
-
+#nav input
+{
 border-radius:3px;
 margin-right:13cm;
 margin-left:2cm;
 height:30px;
 width:10cm;
 border:none;
-
 }
 
-#nav a{
+#nav a
+{
 margin-right:5px;
 margin-left:20px;
 text-decoration:none;
 color:white;
 }
 
-.productlist{
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    
+.productlist
+{
+margin-top:30px;
+display:flex;
+flex-wrap:wrap;
+gap:50px;
+margin-left:30px;
 }
 
-#buttonbuy{
+.buttonbuy
+{
 background:black;
 color:white;
 border:none;
@@ -137,12 +140,72 @@ height:20px;
 width:40px;
 border-radius:2px;
 font-size:13px;
+cursor:pointer;
+}
+
+.product img
+{
+width:200px;
+height:250px;
+object-fit:cover;
+text-align:center;
 }
 
 
-.product img{
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-    text-align:center;
+/*---------------popup--------------------*/
+
+#popup
+{
+position:fixed;
+display:none;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.1);
+backdrop-filter:blur(5px);
+border-radius:2px;
+justify-content:center;
+align-items:center;
+}
+
+#popup-box
+{
+background:white;
+width:40%;
+height:65%;
+text-align:center;
+border-radius:15px;
+position:relative;
+justify-content:center;
+align-items:center;
+padding:20px;
+box-sizing:border-box;
+}
+
+#popup-box #confirmbuy{
+
+background-color:black;
+color:white;
+border:none;
+height:20px;
+border-radius:1px;
+}
+
+#popup-img
+{
+width:200px;
+height:250px;
+object-fit:cover;
+}
+
+#close
+{
+position:absolute;
+top:10px;
+right:15px;
+border:none;
+background:none;
+font-size:20px;
+cursor:pointer;
 }

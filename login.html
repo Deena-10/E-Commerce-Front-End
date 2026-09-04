@@ -1,26 +1,24 @@
-
-
+<!DOCTYPE html>
 <html>
 <head>
-
 <link rel="stylesheet" href="style.css">
+<title>Shoppino - Login</title>
 </head>
-
 <body class="loginbody">
-	
+
 <div id="nav">
 <b>Shoppino</b>
 <a id="l" href="index.html">Home</a>
-<a  href="contact.html">Contact Us</a>
-</div>	
-	
-<p id="b2"> Already Have Account?? Please <button  id="LoginButton">Login</button></p>
-	
+<a href="contact.html">Contact Us</a>
+</div>
+
 <div id="signupform">
-<h3>Sign Up To Shoppino</h3>
+
+<h3 id="formtitle">Sign Up To Shoppino</h3>
+
+<div id="signupcontent">
+
 <table>
-<form>
-	
 <tr>
 <td>Name</td>
 <td><input type="text"></td>
@@ -36,8 +34,6 @@
 <td><input type="password"></td>
 </tr>
 
-
-
 <tr>
 <td>Re-Type Password</td>
 <td><input type="password"></td>
@@ -45,22 +41,17 @@
 
 <tr>
 <td></td>
-<td><button id="b1">Submit</button></td>
+<td><button id="formbutton">Submit</button></td>
 </tr>
-
-<tr >
-</tr>
-
-</form>
 </table>
-</div>	
-	
 
-<div id="loginform">
-	<h3>Login To Shoppino</h3>
+<p id="formmessage">Already Have Account?? Please <button id="LoginButton">Login</button></p>
+
+</div>
+
+<div id="logincontent">
+
 <table>
-<form>
-	
 <tr>
 <td>Email Id</td>
 <td><input type="email"></td>
@@ -73,14 +64,16 @@
 
 <tr>
 <td></td>
-<td><button id="b1">Submit</button></td>
+<td><button id="formbutton2">Login</button></td>
 </tr>
-
-</form>
 </table>
+
+<p id="formmessage2">Don't Have Account?? Please <button id="SignupButton">Signup</button></p>
 
 </div>
 
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
